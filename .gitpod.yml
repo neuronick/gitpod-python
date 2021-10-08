@@ -3,4 +3,13 @@ image:
 
 tasks:
   - init: pip3 install torch numpy nltk 
-    command: echo "Welcome!!!"
+    command: pwd
+github:
+  prebuilds:
+    master: true
+    branches: true
+    pullRequests: false
+    pullRequestsFromForks: false
+    addCheck: false
+    addComment: false
+    addBadge: false
